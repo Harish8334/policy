@@ -1,0 +1,54 @@
+.doubtsText{
+    font-weight: 900;
+    text-align: center;
+    padding-top:20px;
+}
+.doubtMainDiv{
+    background-color: #f2fcf8;
+
+}
+.doubtsDiv{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.doubtBox{
+    width: 49%;
+    border: 1px solid #a7a7a7;
+    border-radius: 12px;
+    padding: 10px;
+}
+.cardGroup{
+    text-align: center;
+}
+.cardImg{
+    width: 60% !important;
+    margin: 20px;
+}
+.flexDiv{
+    display: flex;
+    align-items: center;
+
+}
+.greenButton{
+    color: #50C878;
+    font-weight: 700;
+    cursor: pointer;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 800;
+}
+.blueNum{
+    background-color: #4169E1;
+    font-weight: 900;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

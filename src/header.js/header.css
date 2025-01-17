@@ -1,0 +1,107 @@
+.phoneNumber{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(64, 208, 64) !important;
+    text-decoration: none;
+}
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logoImg{
+    width: 154px;
+}
+.logo-div{
+    display: flex;
+   
+    gap: 80px;
+    align-items: center;
+}
+#basic-nav-dropdown{
+    color: blue !important;
+}
+#basic-nav-dropdown:hover.book{
+    display: block;
+}
+@media (max-width:1199px){
+    .navbar-nav .nav-item .nav-link{
+        font-size: 13px;
+    }
+    .logo-div{
+        gap: 0;
+    }
+    .navText{
+        font-size: 15px;
+    }
+}
+@media (max-width:991px){
+    .logo-div{
+        gap: 80px;
+    }
+}
+@media (max-width:991px){
+    .logo-div{
+        gap: 10px;
+    }
+}
+@media (max-width:399px){
+    .phoneNumber{
+        font-size: 10px;
+    }
+    .buttonToggle{
+        width: 20px;
+    }
+}
+@media(max-width:358px){
+    .phoneNumber{
+        display: none   ;
+    }
+}
+/* Custom styles for the navbar */
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    display: inline-block;
+    color: #01036f;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  /* Underline effect: create a progress-like underline animation */
+  .navbar-nav .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Height of the underline */
+   
+    transition: width 0.6s ease; /* Progress animation */
+  }
+  
+  /* On hover, expand the underline from left to right */
+  .navbar-nav .nav-item .nav-link:hover::after {
+    width: 30%; /* Full width on hover */
+    background-color: rgb(64, 208, 64); /* Underline color */
+    
+  }
+  
+
+  /* Hover effect for dropdown items */
+  .dropdown-menu .dropdown-item {
+    color: #01036f;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+ color:rgb(64, 208, 64) ;
+    
+  }
+  
+  /* Show the dropdown on hover for the parent */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  

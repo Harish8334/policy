@@ -1,0 +1,226 @@
+.heroDiv {
+    display: flex;
+ justify-content: space-around;
+ 
+    align-items: center;
+  }
+  .boxDiv {
+    display: flex;
+
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .listT {
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    color: #39dc9b;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .round {
+    padding: 15px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  .boxFill {
+    display: flex;
+  }
+  .vl {
+    border-left: 1.2px solid black;
+    height: 170px;
+    align-self: flex-end;
+  }
+  .vl1{
+    border-left: 2px solid black;
+   
+    
+  }
+  .goldText {
+    color: orange;
+  }
+  .tag {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+  }
+  .round:hover {
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    max-height: 75px;
+    border-color: #b6eed8;
+    border-width: 2px;
+    border-style: solid;
+  }
+  .heroSectionDiv {
+    background-color: #f2fcf8;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .bestPriceTag {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: black;
+  }
+  @keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+  .knowHeader {
+    text-align: center;
+    
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .boxDivHero{
+    display: flex;
+  gap: 20px;
+  
+  }
+  .rightBox{
+ display: flex;
+  }
+  .personalInsurance{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    gap: 18px;
+
+  }
+  .mainCard{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+ cursor: pointer;
+  }
+  .mainCard:hover{
+    scale: 1.1;
+    transition: 0.8s;
+  }
+  .textPart{
+   width: 70%;
+  }
+  .bodyCard{
+ 
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+
+  }
+  .rightSideDiv{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+ @media (max-width:1199px){
+  .personalInsurance {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    }
+    .bodyCard{
+      gap: 0;
+    }
+    .mainCard{
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+   
+    }
+ }
+ @media (max-width:991px){
+  .heroDiv{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vl{
+    display: none;
+  }
+  .personalInsurance{
+    gap: 10px;
+  }
+  .boxDivHero{
+    gap: 0;
+  }
+  .empIns{
+    padding-left: 15px;
+  }
+ }
+ @media (max-width:767px){
+  .boxDivHero{
+    flex-wrap: wrap;
+  }
+  .personalInsurance{
+    justify-content: space-around;
+    gap: 40px;
+  }
+ }
+ @media (max-width:479px){
+  .heroSectionDiv{
+   display: none;
+  }
+  .bestPriceTag{
+    font-size: 30px;
+  }
+ }
+ @media(max-width:402px){
+  .personalInsurance{
+    gap: 20px;
+  }
+  .card-body{
+    padding: 2px !important;
+
+  }
+ }
+ @media (max-width:320px){
+  .personalInsurance{
+    gap: 13px;
+  }
+ }
