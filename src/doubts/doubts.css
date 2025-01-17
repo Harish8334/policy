@@ -52,3 +52,42 @@
     left: 20px;
     top: 20px;
 }
+.cardGroupDiv{
+
+        display: flex;
+        justify-Content: space-between;
+        gap: 30px;
+        padding-bottom:40px
+
+}
+@media (max-width:1199px){
+    .cardGroupDiv{
+        flex-wrap: wrap;
+    }
+    .flexDiv{
+        width: 30%;
+    }
+}
+@media(max-width:991px){
+    .card-text{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+@media (max-width:767px){
+    .flexDiv{
+        width: 45%;
+    }
+    .doubtsDiv{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .doubtBox{
+        width: 100%;
+    }
+}
+@media (max-width:575px){
+    .flexDiv{
+        width: 100%;
+    }
+}

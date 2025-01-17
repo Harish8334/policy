@@ -26,12 +26,7 @@ function Doubts() {
         <h2>Why Policynation?</h2>
         <h4>4 Reasons to buy from Policynation</h4>
         <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            gap: "30px",
-            paddingBottom:"40px"
-          }}
+         className="cardGroupDiv"
         >
           <div className="card text-center flexDiv">
         <span className="blueNum">01</span>
