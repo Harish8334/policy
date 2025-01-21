@@ -1,0 +1,65 @@
+/* Carousel Styles (in your App.css or Carousel.css) */
+.back{
+    background-image: url(../assets/background.jpeg);
+    background-size: 100%;
+    height: 100%;
+    padding: 50px;
+    min-height: 500px;
+background-color: rgb(1 3 111 / 80%);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(1 3 111 / 80%);
+}
+
+.back-g{
+width: 100%;
+}
+.userImage{
+    width: 120px !important;
+    border-radius: 50%;
+    border: 6px solid rgb(255 255 255 / 15%);
+}
+ .userName{
+  font-weight: 900;
+  font-size: 22px;
+ }
+  .swiper {
+    padding-top: 100px;
+padding-bottom: 30px;
+    width: 8rgb(1 3 111 / 80%)0%;
+    background-color:transparent;
+    height: 50%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .slide{
+    background-color: transparent;
+  }
+  .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    
+    font-size: 0px;
+    
+    opacity: 1;
+    background: rgb(255 255 255 / 40%);
+  }
+  
+  .swiper-pagination-bullet-active {
+   
+    background: rgb(91 202 144);
+  }

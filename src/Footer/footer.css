@@ -1,0 +1,10 @@
+.footerDiv{
+    padding-top: 30px;
+    background-image: url(../assets/world.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+}
