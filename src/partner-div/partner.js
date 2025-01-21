@@ -46,15 +46,15 @@ function Partner() {
             spaceBetween: 10,
           },
           "@0.75": {
-            slidesPerView: 3,
+            slidesPerView: 2.7,
             spaceBetween: 20,
           },
-          "@1.00": {
-            slidesPerView: 4,
+          "@1.0": {
+            slidesPerView: 3.8,
             spaceBetween: 40,
           },
           "@1.50": {
-            slidesPerView: 5,
+            slidesPerView: 4.2,
             spaceBetween: 10,
           },
         }}
