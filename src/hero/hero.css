@@ -197,6 +197,9 @@
   .boxDivHero{
     flex-wrap: wrap;
   }
+  .mainCard{
+    width: 40%;
+  }
   .personalInsurance{
     justify-content: space-around;
     gap: 40px;
