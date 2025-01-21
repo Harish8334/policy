@@ -102,25 +102,25 @@ function HeroSection() {
               <Card className="text-center mainCard">
                 <Card.Body className="bodyCard">
                   <img src={img1} width={50}></img>
-                  <Card.Text className="textPart">healt Insurance</Card.Text>
+                  <Card.Text className="textPart">health Insurance</Card.Text>
                 </Card.Body>
               </Card>
               <Card className="text-center mainCard">
                 <Card.Body className="bodyCard">
                   <img src={img2} width={50}></img>
-                  <Card.Text className="textPart">healt Insurance</Card.Text>
+                  <Card.Text className="textPart">health Insurance</Card.Text>
                 </Card.Body>
               </Card>
               <Card className="text-center mainCard">
                 <Card.Body className="bodyCard">
                   <img src={img3} width={50}></img>
-                  <Card.Text className="textPart">healt Insurance</Card.Text>
+                  <Card.Text className="textPart">health Insurance</Card.Text>
                 </Card.Body>
               </Card>
               <Card className="text-center mainCard">
                 <Card.Body className="bodyCard">
                   <img src={img4} width={50}></img>
-                  <Card.Text className="textPart">healt Insurance</Card.Text>
+                  <Card.Text className="textPart">health Insurance</Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -140,19 +140,19 @@ function HeroSection() {
                 <Card className="text-center mainCard">
                   <Card.Body className="bodyCard">
                     <img src={img6} width={50}></img>
-                    <Card.Text className="textPart">healt Insurance</Card.Text>
+                    <Card.Text className="textPart">health Insurance</Card.Text>
                   </Card.Body>
                 </Card>
                 <Card className="text-center mainCard">
                   <Card.Body className="bodyCard">
                     <img src={img7} width={50}></img>
-                    <Card.Text className="textPart">healt Insurance</Card.Text>
+                    <Card.Text className="textPart">health Insurance</Card.Text>
                   </Card.Body>
                 </Card>
                 <Card className="text-center mainCard">
                   <Card.Body className="bodyCard">
                     <img src={img8} width={50}></img>
-                    <Card.Text className="textPart">healt Insurance</Card.Text>
+                    <Card.Text className="textPart">health Insurance</Card.Text>
                   </Card.Body>
                 </Card>
               </div>

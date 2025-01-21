@@ -5,7 +5,7 @@ import user3 from '../assets/user3.jpeg'
 import user4 from '../assets/user4.jpeg'
 
 import img2 from '../assets/img2.png'
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import './carousel.css'
+import './carousel.css';
 
 function IndividualIntervalsExample() {
    

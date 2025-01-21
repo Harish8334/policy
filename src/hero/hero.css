@@ -155,7 +155,11 @@
     display: flex;
     flex-direction: column;
   }
- 
+ @media (max-width:1399px){
+  .personalInsurance{
+    gap: 9px;
+  }
+ }
  @media (max-width:1199px){
   .personalInsurance {
     display: flex;
