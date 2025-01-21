@@ -63,3 +63,9 @@ padding-bottom: 30px;
    
     background: rgb(91 202 144);
   }
+  @media (max-width:562px){
+    .back{
+      padding: 0px;
+    }
+
+  }

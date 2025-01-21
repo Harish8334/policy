@@ -8,37 +8,37 @@ function Footer(){
         <h3 className="blueText">More Products</h3>
         <div className="footerContent">
 <div>
-  <h3> Life Insurance    </h3>
-  <p> Life Insurance    </p>
-  <p> Term Insurance    </p>
-  <p> Term Insurance Calculator    </p>
-  <p> 1 Crore Term Insurance    </p>
+  <h3 className="footerHead"> Life Insurance</h3>
+  <p className="footerText"> Life Insurance    </p>
+  <p className="footerText"> Term Insurance    </p>
+  <p className="footerText"> Term Insurance Calculator    </p>
+  <p className="footerText"> 1 Crore Term Insurance    </p>
 </div>
 <div>
- <h3> Health Insurance</h3>
- <p> Health Insurance</p>
- <p> 1 Cr Health Cover</p>
- <p> Family Health Insurance</p>
- <p> Senior Citizen Health Insurance</p>
- <p>Arogya Sanjeevani Policy</p>
- <p> Cancer Insurance</p>
+ <h3 className="footerHead"> Health Insurance</h3>
+ <p className="footerText"> Health Insurance</p>
+ <p className="footerText"> 1 Cr Health Cover</p>
+ <p className="footerText"> Family Health Insurance</p>
+ <p className="footerText"> Senior Citizen Health Insurance</p>
+ <p className="footerText">Arogya Sanjeevani Policy</p>
+ <p className="footerText"> Cancer Insurance</p>
 </div>
 <div>
- <h3>  General Insurance  </h3>
- <p>  Car Insurance  </p>
- <p>  Bike Insurance  </p>
- <p>  Motor Insurance  </p>
- <p>  Third Party Car Insurance  </p>
- <p>  Third Party Bike Insurance  </p>
- <p>  Home Insurance  </p>
+ <h3 className="footerHead">  General Insurance  </h3>
+ <p className="footerText">  Car Insurance  </p>
+ <p className="footerText">  Bike Insurance  </p>
+ <p className="footerText">  Motor Insurance  </p>
+ <p className="footerText">  Third Party Car Insurance  </p>
+ <p className="footerText">  Third Party Bike Insurance  </p>
+ <p className="footerText">  Home Insurance  </p>
 </div>
 <div>
- <h3>   Employee Insurance   </h3>
- <p>   Group Health Insurance   </p>
- <p>   Cyber Insurance   </p>
- <p>   D&O Insurance   </p>
- <p>   Workers Compensation   </p>
- <p>   Employee Insurance   </p>
+ <h3 className="footerHead">   Employee Insurance   </h3>
+ <p className="footerText">   Group Health Insurance   </p>
+ <p className="footerText">   Cyber Insurance   </p>
+ <p className="footerText">   D&O Insurance   </p>
+ <p className="footerText">   Workers Compensation   </p>
+ <p className="footerText">   Employee Insurance   </p>
 </div>
 
         </div>

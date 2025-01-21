@@ -23,6 +23,12 @@
     font-size: 22px;
     font-weight: 600;
 }
+@media (max-width:991px){
+    .partnerImage{
+        width: 170px;
+        height: 62px;
+    }
+}
 @media (max-width:455px){
     .partnerImage{
         width: 180px;

@@ -8,3 +8,24 @@
     display: flex;
     justify-content: space-between;
 }
+.footerText{
+    cursor: pointer;
+}
+@media (max-width:1199px){
+.footerHead{
+    font-size: 22px;
+}
+}
+@media (max-width:767px){
+    .footerContent{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .footerHead{
+        font-size: 25px;
+    }
+
+    }
