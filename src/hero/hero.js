@@ -8,6 +8,7 @@ import img7 from "../assets/img7.png";
 import img8 from "../assets/img8.png"
 import "./hero.css";
 import Card from "react-bootstrap/Card";
+
 function HeroSection() {
   return (
     

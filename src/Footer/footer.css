@@ -8,8 +8,9 @@
     display: flex;
     justify-content: space-between;
 }
-.footerText{
+.footerText:hover{
     cursor: pointer;
+    color: rgb(72, 72, 212);
 }
 @media (max-width:1199px){
 .footerHead{

@@ -34,7 +34,7 @@
     align-self: flex-end;
   }
   .vl1{
-    border-left: 2px solid black;
+    border-left: 1px solid black;
    
     
   }
@@ -203,6 +203,7 @@
   }
   .mainCard{
     width: 40%;
+    padding: 20px;
   }
   .personalInsurance{
     justify-content: space-around;
